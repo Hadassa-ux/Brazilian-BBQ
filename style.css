@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(30, 26, 26);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    padding:8px 32px;
+    width: 100%;
+    border-color: black;
+
+}
+
+h1 { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.image-home {
+    background-image:url("./image/image-home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display:flex;
+    align-items: end;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.hero-button {
+    padding: 18px;
+    font-size: 18px;
+    background-color: #d9d90f;
+    border-radius: 50px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 2px 2px 4px #d9d90f(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color:black;
+    color: #ffffff;
+}
+
+.about-image {
+    height: 300px;
+    padding: 30px;
+    margin-top: 100px;
+    
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.about-box1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    padding-right: 50px;
+}
+.about-box1 h1 {
+    margin-top: 0;
+}
+.about-image {
+  width: 500px;
+  padding: 0px;
+  margin: 20px;
+}
+
+.Menu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu-boxes {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 46px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.menu-box {
+padding: 32px;
+width: 200px;
+min-height: 100px;
+background-color: #eeeeee;
+}
+
+.foot-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display:flex;
+    align-items: end;
+    justify-content: center;
+    padding-top: 32px;  
+}
+
+footer {
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 32px 32px;
+    text-align: center;  
+    height: 100px;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.hero-registration {
+    background-image:url("./image/image-restaurant-1.jpg");
+    background-repeat: no-repeat;
+    background-position:bottom center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display:flex;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.contact {
+    text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 46px;
+  width: 50%;
+  margin: 0 auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Mobile layout */
+@media screen and (max-width: 768px) {
+
+    .about {
+        flex-direction: column;
+        padding: 40px;
+        margin: 0%;
+    }
+    .about-image {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .menu-boxes {
+        flex-direction: column;
+    }
+    .menu-box {
+        width: 100%;
+    }
+}
